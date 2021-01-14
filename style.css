@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mobile-screen{
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 7px 7px 15px #d5d7db,-7px -7px 15px #ffffff ;
+    background: #ecf0f3;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+
+.top-notification{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #888;
+    font-weight: 600;
+}
+
+.title{
+    font-family: sans-serif;
+    color :  #888;
+    margin : 20px 0;
+}
+
+
+.input{
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    background: var(--bg-color);
+    box-shadow: 0 0 0 3px  #e9ecf0, 2px 2px 5px inset #d5d7db,-4px -4px 9px inset #ffffff;
+    border-radius: 8px;
+    font-size: 11px;
+    color: #888;
+}
+
+.input2{
+    height: 40px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: #666;
+}
+
+.input3{
+    width: 150px;
+    height: 30px;
+    margin : 20px 0;
+}
+
+.dialpad-display{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+}
+
+.dialpad-display i{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: -27px;
+    color: #888;
+}
+
+a{
+    text-decoration: none;
+    color : black;
+}
+
+.key-pad{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.key-pad div{
+    height: 40px;
+    width: 40px;
+    margin: 8px 5px;
+    box-shadow: 
+    2px 2px 5px  #d5d7db,
+    -4px -4px 9px #ffffff
+    ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.key-pad div input{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    outline: none;
+}
+
+.key-pad div span:nth-child(2){
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.key-pad i{
+    font-size: 12px;
+}
+
+.call-button{
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+
+.call-button button{
+    height: 40px;
+    width: 100%;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    box-shadow: 
+    2px 2px 5px var #d5d7db,
+    -4px -4px 9px #ffffff
+    ;
+    background: rgb(10, 187, 39);
+    color: var(--bg-color);
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.bottom-nav{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.bottom-nav div{
+    height: 40px;
+    width: 40px;
+    box-shadow: 
+    2px 2px 5px #ecf0f3,
+    -4px -4px 9px #ffffff
+    ;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.bottom-nav div{
+    color:rgb(10, 187, 39);
+    box-shadow: 
+    2px 2px 5px inset #d5d7db,
+    -4px -4px 9px inset #ffffff
+    ;
+}
+
+.bottom-nav div span{
+    font-size: 12px;
+}
+
+.bottom-nav div span{
+    font-size: 9px;
+}
+
+.list-group-item{
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
